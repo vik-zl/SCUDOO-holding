@@ -62,3 +62,20 @@ src/
       TimelineDot.jsx
   App.jsx
   App.css
+``` 
+## Exécution du projet
+Prérequis
+--Node.js
+--npm
+
+## Installation et démarrage
+git clone <url-du-repo>
+cd nom-du-projet
+npm install
+npm run dev
+
+## Installation et démarrage
+Une fois le serveur démarré, ouvrir l’adresse affichée dans le terminal, généralement :
+http://localhost:5173
+##Générer la version de production
+npm run build
