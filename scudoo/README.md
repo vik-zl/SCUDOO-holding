@@ -1,16 +1,64 @@
-# React + Vite
+# SCUDOO Holding Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page conceptuelle développée pour **SCUDOO Holding**, une marque technologique haut de gamme positionnée autour de la performance humaine, du fitness intelligent, des équipements connectés et des écosystèmes numériques avancés.
 
-Currently, two official plugins are available:
+Ce projet a été conçu comme une vitrine corporative moderne, immersive et premium, destinée à une présentation client.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Aperçu du projet
 
-## React Compiler
+Le site présente SCUDOO Holding comme :
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- Un groupe technologique innovant
+- Un acteur de la performance humaine
+- Un distributeur d’équipements fitness intelligents
+- Un développeur de plateformes connectées et d’écosystèmes numériques
+- Une marque internationale à forte identité visuelle
 
-## Expanding the ESLint configuration
+L’objectif de cette landing page est de transmettre :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- L’innovation
+- La précision
+- La performance
+- La vision globale
+- Le leadership technologique
+
+## Fonctionnalités
+
+- Landing page responsive au design premium
+- Hero section moderne avec identité visuelle forte
+- Header structuré avec navigation claire
+- Section services interactive
+- Sections innovation et vision corporative
+- Section contact
+- Footer avec navigation cliquable
+- Défilement fluide
+- Mise en page cohérente et futuriste
+
+## Technologies utilisées
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lucide React**
+
+## Structure du projet
+
+```bash
+src/
+  assets/
+  components/
+    sections/
+      AboutSection.jsx
+      ContactSection.jsx
+      HeroSection.jsx
+      InnovationSection.jsx
+      ServicesSection.jsx
+      BackgroundLayers.jsx
+      Footer.jsx
+      Header.jsx
+      NetworkSide.jsx
+      ServiceBox.jsx
+      TimelineDot.jsx
+  App.jsx
+  App.css
