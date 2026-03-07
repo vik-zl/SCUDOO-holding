@@ -3,7 +3,7 @@ import coverImg from '../../assets/scudoo-cover.jpg.jpeg'
 
 export default function HeroSection() {
   return (
-    <section className="relative flex min-h-[92vh] items-center justify-center overflow-hidden px-5 pt-14 md:px-8 md:pt-16 lg:px-10 lg:pt-18">
+    <section className="relative overflow-hidden px-5 pb-20 pt-24 md:px-8 md:pb-16 md:pt-28 lg:px-18 lg:pt-20">
       <div className="mx-auto flex w-full max-w-[1280px] flex-col items-center">
         <motion.div
           initial={{ opacity: 0, y: 28 }}
@@ -41,9 +41,10 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35, duration: 0.7 }}
-          className="mt-16 flex items-center justify-center md:mt-20"
+          className="mt-8 mb-10 flex items-center justify-center md:mt-10 md:mb-10"
         >
-          <div className="grid grid-cols-[auto_64px_auto] items-center gap-0">
+          <div className="grid grid-cols-1 md:grid-cols-[250px_250px] items-center gap-5 md:gap-15">
+            
             <a
               href="#contact"
               className="justify-self-end text-center text-[12px] font-semibold uppercase tracking-[0.14em] text-white underline decoration-white/60 underline-offset-4 transition hover:text-[#e7ca88]"
@@ -52,6 +53,15 @@ export default function HeroSection() {
             </a>
 
             <a
+              href="#services"
+              className="justify-self-start text-center text-[12px] font-semibold uppercase tracking-[0.14em] text-white underline decoration-white/60 underline-offset-4 transition hover:text-[#e7ca88]"
+            >
+              Découvrir nos solutions
+            </a>
+          </div>
+        </motion.div>
+        <div>
+         <a
               href="#about"
               className="group flex h-20 w-16 items-start justify-center justify-self-center"
             >
@@ -64,15 +74,7 @@ export default function HeroSection() {
                 <span className="absolute left-1/2 top-3 h-4 w-4 -translate-x-1/2 rotate-45 border-b-2 border-r-2 border-[#4fa4ea]" />
               </motion.div>
             </a>
-
-            <a
-              href="#services"
-              className="justify-self-start text-center text-[12px] font-semibold uppercase tracking-[0.14em] text-white underline decoration-white/60 underline-offset-4 transition hover:text-[#e7ca88]"
-            >
-              Découvrir nos solutions
-            </a>
-          </div>
-        </motion.div>
+</div>
       </div>
     </section>
   )
