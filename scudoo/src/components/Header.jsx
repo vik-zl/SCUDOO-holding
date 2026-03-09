@@ -1,7 +1,7 @@
 import shieldImg from '../assets/scudoo-shield.jpg.jpeg'
 
 const navItems = [
-  { label: 'Contact Us', href: '#contact' },
+  { label: 'Contact-Nous', href: '#contact' },
   { label: 'Innovation', href: '#innovation' },
   { label: 'Services', href: '#services' },
   { label: 'Vision', href: '#about' },
