@@ -69,10 +69,10 @@ Prérequis
 - **npm**
 
 ## Installation et démarrage
--**git clone <url-du-repo>**
--**cd nom-du-projet (scudoo)**
--**npm install**
--**npm run dev**
+**git clone <url-du-repo>**
+**cd nom-du-projet (scudoo)**
+**npm install**
+**npm run dev**
 
 ## Installation et démarrage
 Une fois le serveur démarré, ouvrir l’adresse affichée dans le terminal, généralement :
